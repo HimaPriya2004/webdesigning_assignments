@@ -1,0 +1,81 @@
+<html>
+<head>
+</head>
+<body bg color = "#8E44AD ">
+<font face = "Borg9">
+<h1> please Enter your Details and Submit</h1>
+</font>
+<font face = "Biting My Nails" color  "#003366" size = "5">
+
+<form>
+  <lable for = "fname" >First name:</lable>
+  <input type = "text" id="fname" name="fname">
+
+<br>
+<br>
+
+<lable for = "l name">Last name;</lable>
+ <input type = "text" id = "l name" name ="l name">
+<br>
+<hr>
+<p> Select Gender</p>
+<input type = "radio" id= "male" name = "gender">
+   <lable for = "male">Male</lable><br>
+   <input type = "radio" id="female" name="gender">
+   <lable for = "female">female</lable>
+<br>
+<hr>
+
+<p> check all facilities you want </p>
+
+ <input type = "checkbox" id='hostel" name="facitities">
+ <lable for = "hostel"> I want hostel</lable><br>
+
+ <input type = "checkbox" id="transport" name="facilities">
+ <lable for = "transport"> I want trasport</lable>
+
+<lable for ="Address">Enter your address:</lable>
+
+<textarea id= "Address"> name="Address" rows="5" cols"50">
+</textarea>
+<br>
+<hr>
+<lable for="c names"> Select your course </lable><br>
+<select name="c name" id="c name">
+   <option value="AIML">Artificial Intelligence & ML</option>
+   <option value="DS">Data science</option>
+   <option value="CS">Cyber Security</option>
+</select>
+<br>
+<hr>
+   <input type="submit" value="submit">
+</form>
+</font>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
